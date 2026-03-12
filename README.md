@@ -27,7 +27,7 @@ Ubuntu / Debian:
 ## Mock Secret Manager Response
 
 The mock API simulates a secret manager returning JSON secrets:
-
+```
 {
   "DB_HOST": "localhost",
   "DB_PORT": "5432",
@@ -35,7 +35,7 @@ The mock API simulates a secret manager returning JSON secrets:
   "DB_PASSWORD": "test_password",
   "API_KEY": "abc123"
 }
-
+```
 
 These values are converted into `.env` format.
 
